@@ -147,3 +147,10 @@ func loadRecipes() -> [Recipe] {
     }
     return encodedData.map { try! JSONDecoder().decode(Recipe.self, from: $0) }
 }
+
+/// Extends `UIScreen` with convinience variables for commonly used values.
+extension UIScreen{
+    static let screenWidth = UIScreen.main.bounds.size.width
+    static let screenHeight = UIScreen.main.bounds.size.height
+    static let screenSize = UIScreen.main.bounds.size
+}

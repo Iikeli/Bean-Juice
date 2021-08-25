@@ -32,15 +32,23 @@ struct ContentView: View {
             RecipeSelectionView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "pencil")
+                        Image(systemName: "rectangle.stack")
                         Text("Recipes")
+                    }
+                }
+            
+            DiscoverView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "safari")
+                        Text("Discover")
                     }
                 }
 
             SettingsView(mlSelected: $mlSelected, cupSize: $cupSize, customColor: $customColor)
                 .tabItem {
                     VStack {
-                        Image(systemName: "gear")
+                        Image(systemName: "gearshape")
                         Text("Settings")
                     }
                 }

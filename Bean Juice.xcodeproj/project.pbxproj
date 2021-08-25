@@ -40,6 +40,8 @@
 		54CEC582269B6D520016B40A /* Drip Machine.md in Resources */ = {isa = PBXBuildFile; fileRef = 54CEC581269B6D520016B40A /* Drip Machine.md */; };
 		54EA8E9D24C834F500600CE8 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA8E9C24C834F500600CE8 /* CustomToggle.swift */; };
 		54F7347925544A820040C2B0 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 54F7347825544A820040C2B0 /* .swiftlint.yml */; };
+		54FBF5FC26D6679B00FFB910 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBF5FB26D6679B00FFB910 /* DiscoverView.swift */; };
+		54FBF5FE26D667CF00FFB910 /* DiscoverRecipeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBF5FD26D667CF00FFB910 /* DiscoverRecipeItem.swift */; };
 		7BCC1D935860A3C83E8C0D06 /* Pods_Bean_Juice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E62A69160CEDFE29A18A01F /* Pods_Bean_Juice.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +95,8 @@
 		54CEC581269B6D520016B40A /* Drip Machine.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Drip Machine.md"; sourceTree = "<group>"; };
 		54EA8E9C24C834F500600CE8 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
 		54F7347825544A820040C2B0 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		54FBF5FB26D6679B00FFB910 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		54FBF5FD26D667CF00FFB910 /* DiscoverRecipeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverRecipeItem.swift; sourceTree = "<group>"; };
 		67027D81097890AF6B4A0480 /* Pods-Bean JuiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bean JuiceTests.debug.xcconfig"; path = "Target Support Files/Pods-Bean JuiceTests/Pods-Bean JuiceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CF29C58DBF83EAF0DF13058 /* Pods-Bean JuiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bean JuiceTests.release.xcconfig"; path = "Target Support Files/Pods-Bean JuiceTests/Pods-Bean JuiceTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E62A69160CEDFE29A18A01F /* Pods_Bean_Juice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bean_Juice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,6 +216,7 @@
 				54170E6626065CA80040E4DA /* RecipeView.swift */,
 				54170E71260665F30040E4DA /* RecipeSelectionView.swift */,
 				34067599241971C600307F04 /* Settings.swift */,
+				54FBF5FB26D6679B00FFB910 /* DiscoverView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				54EA8E9C24C834F500600CE8 /* CustomToggle.swift */,
 				3450A79F246993C200F3E799 /* ItemRow.swift */,
 				54CEC5692699CF0E0016B40A /* WaterAmountSlider.swift */,
+				54FBF5FD26D667CF00FFB910 /* DiscoverRecipeItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -431,11 +437,13 @@
 				54CEC56C2699D0CC0016B40A /* CoffeeRatioSlider.swift in Sources */,
 				3450A79E24698D9300F3E799 /* MethodSelectionView.swift in Sources */,
 				340675982419685B00307F04 /* Utilities.swift in Sources */,
+				54FBF5FC26D6679B00FFB910 /* DiscoverView.swift in Sources */,
 				54170E7526066F130040E4DA /* NewRecipeView.swift in Sources */,
 				34371217244DBD9D00030AAD /* CircleImage.swift in Sources */,
 				340675602417A09C00307F04 /* ContentView.swift in Sources */,
 				54170E6726065CA80040E4DA /* RecipeView.swift in Sources */,
 				3406758E2418E59100307F04 /* Cup.swift in Sources */,
+				54FBF5FE26D667CF00FFB910 /* DiscoverRecipeItem.swift in Sources */,
 				54170E6F26065EBE0040E4DA /* MethodName.swift in Sources */,
 				346360B6243B5D770054FEB1 /* MethodView.swift in Sources */,
 				54170E6026065B010040E4DA /* Recipe.swift in Sources */,
